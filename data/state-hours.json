@@ -1,0 +1,510 @@
+{
+  "$schema": "./schema.json",
+  "name": "India Shops and Establishments working-hours rules",
+  "description": "Per-jurisdiction working-hours rules under India’s Shops and Establishments Acts. Every value carries the source it was verified against; unverified fields are null rather than guessed.",
+  "license": "CC-BY-4.0",
+  "canonical": "https://workclave.com/tools/shops-establishments-hours",
+  "repository": "https://github.com/mecverse-india/india-shops-establishments-hours",
+  "generated": "2026-09-06",
+  "coverage": {
+    "jurisdictionsPublished": 8,
+    "jurisdictionsInIndia": 36,
+    "fieldsPopulated": 79,
+    "fieldsPossible": 80,
+    "fieldsFromSecondarySources": 14,
+    "recordedConflicts": 2,
+    "uniqueSources": 22
+  },
+  "fields": [
+    {
+      "key": "actName",
+      "label": "Governing Act"
+    },
+    {
+      "key": "dailyHours",
+      "label": "Maximum daily hours"
+    },
+    {
+      "key": "weeklyHours",
+      "label": "Maximum weekly hours"
+    },
+    {
+      "key": "spreadOver",
+      "label": "Spread-over limit"
+    },
+    {
+      "key": "restInterval",
+      "label": "Rest interval"
+    },
+    {
+      "key": "overtimeRate",
+      "label": "Overtime rate"
+    },
+    {
+      "key": "overtimeCap",
+      "label": "Overtime cap"
+    },
+    {
+      "key": "weeklyOff",
+      "label": "Weekly off"
+    },
+    {
+      "key": "womenNightShift",
+      "label": "Women on night shifts"
+    },
+    {
+      "key": "itExemption",
+      "label": "IT/ITES exemption"
+    }
+  ],
+  "jurisdictions": [
+    {
+      "slug": "rajasthan",
+      "name": "Rajasthan",
+      "kind": "state",
+      "region": "North",
+      "hubs": [
+        "Jaipur",
+        "Udaipur",
+        "Jodhpur"
+      ],
+      "actName": {
+        "value": "Rajasthan Shops and Commercial Establishments Act, 1958 (Act 31 of 1958), as amended by the Amendment Act, 2026 (Act 5 of 2026) — deemed in force from 17 December 2025",
+        "source": "https://prsindia.org/files/bills_acts/bills_states/rajasthan/2026/Bill5of2026RJ.pdf"
+      },
+      "dailyHours": {
+        "value": "10 hours (s.7(1), raised from 9 by the 2026 amendment). A proviso caps total hours including overtime at 10 per day, except on stock-taking and accounts days",
+        "source": "https://prsindia.org/files/bills_acts/bills_states/rajasthan/2026/Bill5of2026RJ.pdf"
+      },
+      "weeklyHours": {
+        "value": "48 hours (s.7(1), unamended)",
+        "source": "https://www.indiacode.nic.in/bitstream/123456789/18868/1/the_rajasthan_shops_and_commercial_establishments_act,_1958.pdf"
+      },
+      "spreadOver": {
+        "value": "12 hours in any day, inclusive of the rest interval (s.10, unamended)",
+        "source": "https://www.indiacode.nic.in/bitstream/123456789/18868/1/the_rajasthan_shops_and_commercial_establishments_act,_1958.pdf"
+      },
+      "restInterval": {
+        "value": "At least 30 minutes, and no work period may exceed 6 hours before it (s.9 — the 2026 amendment replaced “five” with “six”)",
+        "source": "https://prsindia.org/files/bills_acts/bills_states/rajasthan/2026/Bill5of2026RJ.pdf"
+      },
+      "overtimeRate": {
+        "value": "1.5× the ordinary rate of wages (s.8(1)). Note: s.8 was not amended, so the premium still triggers past 9 hours a day even though s.7 now permits 10",
+        "source": "https://www.indiacode.nic.in/bitstream/123456789/18868/1/the_rajasthan_shops_and_commercial_establishments_act,_1958.pdf"
+      },
+      "overtimeCap": {
+        "value": "144 hours per quarter (s.7(1) second proviso, raised from 50 by the 2026 amendment)",
+        "source": "https://prsindia.org/files/bills_acts/bills_states/rajasthan/2026/Bill5of2026RJ.pdf"
+      },
+      "weeklyOff": {
+        "value": "One day per week. Notification S.O.20 of 19 June 2026 exempts registered establishments from ss.11(1) and 12(1) on condition that one day's paid weekly rest is given in rotation; s.12(3) (one whole rest day per employee per week) remains in force",
+        "source": "https://labour.rajasthan.gov.in/notification.aspx"
+      },
+      "womenNightShift": {
+        "value": "Prohibited by s.22 by default (“night” defined in s.2(11) as ≥12 consecutive hours including 10pm–6am), lifted for registered shops and commercial establishments by exemption under s.3(2)",
+        "source": "https://labour.rajasthan.gov.in/notification.aspx"
+      },
+      "itExemption": {
+        "value": "No IT/ITES-specific exemption exists. Rajasthan grants economy-wide exemptions to all registered shops and commercial establishments instead, so IT firms are covered as commercial establishments rather than by sector",
+        "source": "https://labour.rajasthan.gov.in/notification.aspx"
+      },
+      "notes": [
+        "The 2026 amendment raised daily hours to 10 but left the overtime section untouched — so hours 9 to 10 are permitted without being overtime-rated on the face of the statute. Take advice before relying on that reading.",
+        "Rajasthan is unusual in paying overtime at 1.5×, not the 2× most states apply."
+      ]
+    },
+    {
+      "slug": "goa",
+      "name": "Goa",
+      "kind": "state",
+      "region": "West",
+      "hubs": [
+        "Panaji",
+        "Verna IT Park"
+      ],
+      "actName": {
+        "value": "Goa, Daman and Diu Shops and Establishments Act, 1973 (cited in later Goa legislation as Act 13 of 1974). A replacement Act — the Goa Shops and Establishments (Regulation of Employment and Conditions of Service) Act, 2025 — is gazetted but awaits a commencement notification",
+        "source": "https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf"
+      },
+      "dailyHours": {
+        "value": "8 hours in any day (ss.5(1) shops / 11(1) establishments) — lower than most states",
+        "source": "https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf"
+      },
+      "weeklyHours": {
+        "value": "48 hours in any week (ss.5(1) / 11(1))",
+        "source": "https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf"
+      },
+      "spreadOver": {
+        "value": "12 hours; extended to 14 hours for stock-taking and preparation of accounts, on payment of overtime wages (ss.7 / 13)",
+        "source": "https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf"
+      },
+      "restInterval": {
+        "value": "At least one hour after 5 hours of work (ss.6 / 12) — an hour, not the half-hour common elsewhere",
+        "source": "https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf"
+      },
+      "overtimeRate": {
+        "value": "Twice the ordinary rate of wages beyond 8 hours a day or 48 a week (s.29)",
+        "source": "https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf"
+      },
+      "overtimeCap": {
+        "value": "6 hours per week (ss.5(2) / 11(2)), plus a separate allowance of up to 24 hours in aggregate across at most 15 days a year for stock-taking and accounts (ss.5(3) / 11(3))",
+        "source": "https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf"
+      },
+      "weeklyOff": {
+        "value": "One full day per week — shops close (s.8(1)); establishment employees get a holiday of one whole day (s.14(1)), with no wage deduction (s.14(4))",
+        "source": "https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf"
+      },
+      "womenNightShift": {
+        "value": "The 1973 Act contains no restriction on women working at night — Chapter IV restricts children and young persons only. This is an absence of prohibition, not an affirmative permission notification",
+        "source": "https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf"
+      },
+      "itExemption": {
+        "value": "Notification 24/11/2018-LAB/672 of 7 November 2019 exempted registered IT units from ss.8, 10, 11, 16 and 50 for five years — which expired around November 2024, and no renewal was found. Treat as lapsed unless confirmed with the Labour Commissioner",
+        "source": "https://www.teamleaseregtech.com/updates/article/7308/government-of-goa-exempts-all-the-information-technology-units-from-va/",
+        "secondary": true
+      },
+      "notes": [
+        "Two regimes exist on paper. The 1973 Act governs today (8 hours a day, 6 overtime hours a week, one-hour break). The 2025 Act — 10 hours a day, 144 overtime hours a quarter, half-hour break — is enacted and gazetted but not yet commenced.",
+        "The 2025 Act, once in force, applies only to establishments with 20 or more workers and excludes workers earning above ₹24,000 a month, which would take most IT staff outside it entirely.",
+        "Reports of a 2026 Goa women's night-shift notification trace to draft rules under the OSH Code, not to the Shops Act."
+      ]
+    },
+    {
+      "slug": "himachal-pradesh",
+      "name": "Himachal Pradesh",
+      "kind": "state",
+      "region": "North",
+      "hubs": [
+        "Shimla",
+        "Baddi"
+      ],
+      "actName": {
+        "value": "Himachal Pradesh Shops and Commercial Establishments Act, 1969 (Act 10 of 1970), as amended by the Amendment Act, 2025 (assent 9 February 2026)",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/himachal-pradesh/1970/1970HP10.pdf"
+      },
+      "dailyHours": {
+        "value": "9 hours in any one day (s.7(1), unchanged by the 2025 amendment)",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/himachal-pradesh/1970/1970HP10.pdf"
+      },
+      "weeklyHours": {
+        "value": "48 hours in any one week (s.7(1), unchanged)",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/himachal-pradesh/1970/1970HP10.pdf"
+      },
+      "spreadOver": {
+        "value": "10 hours in a day, inclusive of the rest interval (s.8(2)) — tighter than the 12 hours most states allow",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/himachal-pradesh/1970/1970HP10.pdf"
+      },
+      "restInterval": {
+        "value": "At least half an hour after no more than 5 hours of work; watchmen and guards excepted (s.8(1))",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/himachal-pradesh/1970/1970HP10.pdf"
+      },
+      "overtimeRate": {
+        "value": "Twice the normal hourly wage; “normal wages” means basic plus allowances and excludes bonus (s.7(2) proviso (b))",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/himachal-pradesh/1970/1970HP10.pdf"
+      },
+      "overtimeCap": {
+        "value": "144 hours in any one quarter (s.7(2) proviso (a), raised from 50 by the 2025 amendment)",
+        "source": "https://uncomplycate.com/wp-content/uploads/2025/12/Himachal-Pradesh-Shops-and-Commercial-Establishments-Amendment-Bill-2025-DEC042025.pdf"
+      },
+      "weeklyOff": {
+        "value": "A prescribed close-day per week (s.10); no employee to work on the close-day or on one day in a week in other establishments (s.11), with a watchman exception where another off day is given",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/himachal-pradesh/1970/1970HP10.pdf"
+      },
+      "womenNightShift": {
+        "value": "s.29(1) prohibits night work by women. Notification LEP-A003/15/2023-Pt-II exempts all shops and commercial establishments, valid one year from gazette publication, subject to written consent, employer transport with CCTV and GPS, workplace CCTV, lighting, amenities and POSH compliance",
+        "source": "https://www.teamleaseregtech.com/updates/article/44457/himachal-pradesh-govt-permits-women-w",
+        "secondary": true,
+        "conflict": "the same notification number is reported with two different dates by different trackers"
+      },
+      "itExemption": {
+        "value": "No IT/ITES exemption under the Shops Act. The IT/ITES night-work notification that exists (Shram (A)3-4/2022 of 12 August 2022) was issued under s.28 of the Factories Act, so it governs factories rather than shops and offices",
+        "source": "https://www.teamleaseregtech.com/updates/article/18878/government-of-himachal-pradesh-to-allow-employing-women-in-night-shift/",
+        "secondary": true
+      },
+      "notes": [
+        "The 2025 amendment is narrow: it raised the overtime cap and set a 10-employee registration threshold. Daily hours, spread-over, rest intervals and the overtime rate were untouched.",
+        "The women's night-shift exemption is time-limited to one year from publication — check whether it has been renewed before relying on it."
+      ]
+    },
+    {
+      "slug": "uttarakhand",
+      "name": "Uttarakhand",
+      "kind": "state",
+      "region": "North",
+      "hubs": [
+        "Dehradun",
+        "Haridwar",
+        "Rudrapur"
+      ],
+      "actName": {
+        "value": "Uttarakhand Shops and Establishments (Regulation of Employment and Conditions of Service) Act, 2017 (Uttarakhand Act 3 of 2018), as amended by Act 6 of 2026 (gazette notification 129/XXXVI(3)/2026, 17 April 2026, in force at once)",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf"
+      },
+      "dailyHours": {
+        "value": "10 hours in any day (s.8(1), raised from 9 by the 2026 amendment)",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf"
+      },
+      "weeklyHours": {
+        "value": "48 hours in any week (s.8(1), untouched by the amendment)",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf"
+      },
+      "spreadOver": {
+        "value": "Total hours in a shift including the rest interval must not exceed 12 hours (s.8(2), wholly replaced in 2026)",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf"
+      },
+      "restInterval": {
+        "value": "At least half an hour after no more than 6 hours of continuous work (s.8(1), raised from 5 hours in 2026)",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf"
+      },
+      "overtimeRate": {
+        "value": "Twice the ordinary rate of wages, now triggered beyond 10 hours a day or 48 a week (ss.8(3) and 9)",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf"
+      },
+      "overtimeCap": {
+        "value": "144 hours in a period of three months (s.8(3), raised from 125 in 2026)",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf"
+      },
+      "weeklyOff": {
+        "value": "A weekly holiday with wages (s.11(1)). A shop may open all week provided every worker gets at least 24 consecutive hours of rest (s.10(2)), with compensatory leave within two months if denied (s.10(3)) and twice ordinary wages for work on a rest day (s.10(5))",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf"
+      },
+      "womenNightShift": {
+        "value": "No woman to work except between 6am and 9pm (s.6(2)); with her consent, 9pm–6am is permitted where the employer provides protection of dignity and safety, protection from sexual harassment, and transport to the doorstep of her residence",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf"
+      },
+      "itExemption": {
+        "value": "Built into the Act rather than granted by notification: s.8(5)(e) applies the daily-hours and spread-over limits to highly skilled workers in information technology, biotechnology and R&D only to the extent and on the conditions prescribed by rules",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf"
+      },
+      "notes": [
+        "A clarification dated 17 February 2026 confirms there are no restrictions on opening and closing hours — establishments may run 24×7 — but employee working hours and holidays must still follow the Act.",
+        "Some vendor pages still quote 8 hours a day for Uttarakhand. That is wrong on the face of the statute: the 2017 Act said nine, and since Act 6 of 2026 it says ten."
+      ]
+    },
+    {
+      "slug": "madhya-pradesh",
+      "name": "Madhya Pradesh",
+      "kind": "state",
+      "region": "West",
+      "hubs": [
+        "Indore",
+        "Bhopal"
+      ],
+      "actName": {
+        "value": "Madhya Pradesh Shops and Establishments Act, 1958 (Act 25 of 1958) — still the operative law, amended twice in 2025 (overtime cap in September; digitisation in December)",
+        "source": "https://www.indiacode.nic.in/bitstream/123456789/3595/1/MP%20Shops%20and%20Establishment%20Act,%201958.pdf"
+      },
+      "dailyHours": {
+        "value": "9 hours a day in a shop; 10 hours a day in a commercial establishment (s.11(1)(b)). An IT or software company is normally a commercial establishment, so the 10-hour limit applies",
+        "source": "https://www.indiacode.nic.in/bitstream/123456789/3595/1/MP%20Shops%20and%20Establishment%20Act,%201958.pdf"
+      },
+      "weeklyHours": {
+        "value": "48 hours a week (s.11(1)(a))",
+        "source": "https://www.indiacode.nic.in/bitstream/123456789/3595/1/MP%20Shops%20and%20Establishment%20Act,%201958.pdf"
+      },
+      "spreadOver": {
+        "value": "12 hours a day normally; 13 hours where the establishment closes for a continuous 3 hours; 14 hours on an overtime day under s.11(2); 16 hours under s.11(3) (s.12)",
+        "source": "https://www.indiacode.nic.in/bitstream/123456789/3595/1/MP%20Shops%20and%20Establishment%20Act,%201958.pdf"
+      },
+      "restInterval": null,
+      "overtimeRate": {
+        "value": "Twice the ordinary rate of wages (s.55)",
+        "source": "https://www.indiacode.nic.in/bitstream/123456789/3595/1/MP%20Shops%20and%20Establishment%20Act,%201958.pdf"
+      },
+      "overtimeCap": {
+        "value": "144 hours in any quarter (s.11(2), substituted by the 2025 amendment for the previous six hours a week). Separately, s.11(3) permits up to 24 hours of excess work on not more than 6 days a year for accounts and stock-taking",
+        "source": "https://www.teamleaseregtech.com/updates/article/47825/madhya-pradesh-shops-and-establishments-amendment-act-2025/",
+        "secondary": true
+      },
+      "weeklyOff": {
+        "value": "Establishment-closure model: the shop or establishment closes one day a week, fixed by the employer at the start of the year and alterable at most once in three months (s.13(1)); wages are payable for the closed day (s.13(4))",
+        "source": "https://www.indiacode.nic.in/bitstream/123456789/3595/1/MP%20Shops%20and%20Establishment%20Act,%201958.pdf"
+      },
+      "womenNightShift": {
+        "value": "s.25 bars work before 7am and after 9pm. A notification of 27 June 2025 permits 9pm–7am subject to written consent, at least five women per night shift, continuous CCTV, women security guards where more than 10 women work at night, a third of on-duty supervisors being women, a 12-hour gap between shifts, POSH compliance and amenities",
+        "source": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2025/Continued-move-towards-women-empowerment-Madhya-Pradesh-revises-conditions-for-allowing-women-to-work-night-shifts",
+        "secondary": true
+      },
+      "itExemption": {
+        "value": "No broad exemption. Notification 229 of 20 May 2013 lifts only the women's 9pm–7am restriction for information technology establishments; working hours, spread-over, opening hours and weekly off are not relaxed for the sector",
+        "source": "https://www.indianemployees.com/gazette-notifications/details/the-madhya-pradesh-shops-and-establishments-act-1958-related-to-working-hours-of-women-between-9",
+        "secondary": true
+      },
+      "notes": [
+        "Rest interval is deliberately left unverified. The Act has no general rest-interval provision for adults — the only interval in the statute (s.25A(2)) applies to young persons. Some aggregators state “30 minutes after 5 hours” for MP; that is unsupported by the Act text and appears carried over from another state.",
+        "Note the shop versus commercial establishment split in daily hours — 9 against 10 — which most summaries flatten into a single figure."
+      ]
+    },
+    {
+      "slug": "chhattisgarh",
+      "name": "Chhattisgarh",
+      "kind": "state",
+      "region": "East",
+      "hubs": [
+        "Raipur",
+        "Bhilai"
+      ],
+      "actName": {
+        "value": "Chhattisgarh Shops and Establishments (Regulation of Employment and Conditions of Service) Act, 2017 (Act 21 of 2018), in force from 13 February 2025, repealing the 1958 Act; amended with effect from 8 July 2026",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/chhattisgarh/2018/Act%2021%20of%202018%20CHH.pdf"
+      },
+      "dailyHours": {
+        "value": "10 hours a day since 8 July 2026; 9 hours as originally enacted (s.8(1))",
+        "source": "https://pcsmgmt.com/chhattisgarh-shops-and-establishments-amendment-act-2025-key-changes-in-applicability-working-hours-overtime-and-womens-night-shifts/",
+        "secondary": true
+      },
+      "weeklyHours": {
+        "value": "48 hours a week (s.8(1)), not amended",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/chhattisgarh/2018/Act%2021%20of%202018%20CHH.pdf"
+      },
+      "spreadOver": {
+        "value": "12 hours since 8 July 2026. As enacted, s.8(2) capped a shift including the rest interval at 10½ hours, extended to 12 for intermittent or urgent work",
+        "source": "https://pcsmgmt.com/chhattisgarh-shops-and-establishments-amendment-act-2025-key-changes-in-applicability-working-hours-overtime-and-womens-night-shifts/",
+        "secondary": true
+      },
+      "restInterval": {
+        "value": "Not less than half an hour after every 6 hours since 8 July 2026; after every 5 hours as originally enacted (s.8(1))",
+        "source": "https://pcsmgmt.com/chhattisgarh-shops-and-establishments-amendment-act-2025-key-changes-in-applicability-working-hours-overtime-and-womens-night-shifts/",
+        "secondary": true
+      },
+      "overtimeRate": {
+        "value": "Twice the ordinary rate of wages (s.9), and likewise for work on a day of rest (s.10(5))",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/chhattisgarh/2018/Act%2021%20of%202018%20CHH.pdf"
+      },
+      "overtimeCap": {
+        "value": "144 hours in a quarter since 8 July 2026; 125 hours in three months as originally enacted (s.8(3))",
+        "source": "https://pcsmgmt.com/chhattisgarh-shops-and-establishments-amendment-act-2025-key-changes-in-applicability-working-hours-overtime-and-womens-night-shifts/",
+        "secondary": true
+      },
+      "weeklyOff": {
+        "value": "Per-worker model rather than establishment closure: the shop may work every day provided each worker gets at least 24 consecutive hours of rest (s.10(2)), with compensatory leave within two months if denied (s.10(3))",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/chhattisgarh/2018/Act%2021%20of%202018%20CHH.pdf"
+      },
+      "womenNightShift": {
+        "value": "s.6(2) restricts women to 6am–9pm. The proviso permits 9pm–6am by notification and with the woman's consent, where the establishment provides shelter, rest room, night creche, ladies' toilet, protection of dignity and safety, protection from sexual harassment, and transport to her doorstep",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/chhattisgarh/2018/Act%2021%20of%202018%20CHH.pdf"
+      },
+      "itExemption": {
+        "value": "A statutory hook rather than a live exemption: s.8(5)(e) applies the hours and spread-over limits to highly skilled workers in IT, biotechnology and R&D only to the extent and on the conditions prescribed by rules. Whether the Rules actually prescribe those conditions could not be verified",
+        "source": "https://prsindia.org/files/bills_acts/acts_states/chhattisgarh/2018/Act%2021%20of%202018%20CHH.pdf"
+      },
+      "notes": [
+        "The 2017 Act only came into force in February 2025 — content written before then describes the repealed 1958 Act.",
+        "The 8 July 2026 amendment figures come from a compliance-vendor summary; the gazette text of the amendment could not be retrieved directly."
+      ]
+    },
+    {
+      "slug": "punjab",
+      "name": "Punjab",
+      "kind": "state",
+      "region": "North",
+      "hubs": [
+        "Mohali",
+        "Ludhiana",
+        "Amritsar"
+      ],
+      "actName": {
+        "value": "Punjab Shops and Commercial Establishments Act, 1958 (Punjab Act 15 of 1958), as amended by Punjab Act 12 of 2025 — gazetted 29 August 2025 and in force from publication",
+        "source": "https://uncomplycate.com/wp-content/uploads/2025/09/Punjab-Shops-and-Commercial-Establishments-Amendment-Act-2025-Sep102025.pdf"
+      },
+      "dailyHours": {
+        "value": "10 hours (s.7(1), raised from 9 by the 2025 amendment)",
+        "source": "https://uncomplycate.com/wp-content/uploads/2025/09/Punjab-Shops-and-Commercial-Establishments-Amendment-Act-2025-Sep102025.pdf"
+      },
+      "weeklyHours": {
+        "value": "48 hours (s.7(1), unchanged)",
+        "source": "https://uncomplycate.com/wp-content/uploads/2025/09/Punjab-Shops-and-Commercial-Establishments-Amendment-Act-2025-Sep102025.pdf"
+      },
+      "spreadOver": {
+        "value": "12 hours (s.8(2), raised from 10 by the 2025 amendment)",
+        "source": "https://uncomplycate.com/wp-content/uploads/2025/09/Punjab-Shops-and-Commercial-Establishments-Amendment-Act-2025-Sep102025.pdf"
+      },
+      "restInterval": {
+        "value": "At least half an hour after no more than 5 hours of continuous work (s.8(1)); watchmen and guards excepted",
+        "source": "https://blinkvisa.com/blog/wp-content/uploads/2022/06/The-Punjab-Shops-and-Commercial-Establishments-Act-1958.pdf"
+      },
+      "overtimeRate": {
+        "value": "Twice the normal hourly wage (s.7(2) proviso (b)); “normal wages” means basic plus allowances and excludes bonus",
+        "source": "https://blinkvisa.com/blog/wp-content/uploads/2022/06/The-Punjab-Shops-and-Commercial-Establishments-Act-1958.pdf"
+      },
+      "overtimeCap": {
+        "value": "144 hours in any one quarter (s.7(1), raised from 50 in 2025). “Quarter” is defined in s.2(xxi-a) as three months from 1 January, 1 April, 1 July or 1 October",
+        "source": "https://uncomplycate.com/wp-content/uploads/2025/09/Punjab-Shops-and-Commercial-Establishments-Amendment-Act-2025-Sep102025.pdf"
+      },
+      "weeklyOff": {
+        "value": "Close day is every Sunday unless the Government fixes another (s.10(1)); no employee may work on the close day or on one day in a week (s.11). Three national holidays plus three festival holidays, at double wages if worked (s.12)",
+        "source": "https://blinkvisa.com/blog/wp-content/uploads/2022/06/The-Punjab-Shops-and-Commercial-Establishments-Act-1958.pdf"
+      },
+      "womenNightShift": {
+        "value": "s.30(1) prohibits women working at night (“night” defined in s.2(xvii) as ≥12 consecutive hours including 8pm–6am). Exemption is granted case by case under the scheme notified 3 March 2022, conditional on at least five women per night shift, security and transport, POSH compliance and annual self-defence training",
+        "source": "https://complinity.com/legal-update/exemption-granted-from-the-provisions-of-section-30-condition-of-employment-of-women-of-the-punjab-shops-and-commercial-establishment-act-1958-5348/",
+        "secondary": true,
+        "conflict": "the scheme's own conditions still cite 9 hours a day and 50 overtime hours a quarter, which the August 2025 amendment superseded"
+      },
+      "itExemption": {
+        "value": "The IT-specific exemption (Notification 21/134/2001-5Lab II/86 of 8 January 2002) ran for two years only and appears to have lapsed around January 2004 with no renewal found. A separate blanket exemption from ss.9 and 10(1) for 365-day opening was renewed annually only up to 31 May 2021; no later renewal was found",
+        "source": "https://www.datocms-assets.com/40521/1638960719-punjab-shops-and-commercial-establihments-notifications.pdf"
+      },
+      "notes": [
+        "Since 29 August 2025 the Act applies only to establishments employing 20 or more workers; smaller ones are subject to s.13-A intimation alone. For many small firms this matters more than the hours change.",
+        "The widely circulated PRS PDF titled “Punjab Shops and Commercial Establishments Act, 1958” is in fact the Haryana adaptation — its s.1(2) extends to Haryana. Punjab has no IT/ITES proviso in Rule 15; that provision is Haryana's."
+      ]
+    },
+    {
+      "slug": "chandigarh",
+      "name": "Chandigarh",
+      "kind": "ut",
+      "region": "North",
+      "hubs": [
+        "Chandigarh IT Park"
+      ],
+      "actName": {
+        "value": "Punjab Shops and Commercial Establishments Act, 1958 as applicable to the Union Territory of Chandigarh; the 2025 Punjab amendment was extended to Chandigarh by MHA Notification S.O. 5647(E) of December 2025",
+        "source": "https://uncomplycate.com/wp-content/uploads/2025/08/Chandigarh-Administration-allows-247-Operations-for-Shops-and-Commercial-Establishments-AUG212025.pdf"
+      },
+      "dailyHours": {
+        "value": "10 hours a day (condition 6 of the exemption notification, as amended 18 March 2026; previously 9)",
+        "source": "https://www.teamleaseregtech.com/updates/article/53982/chandigarh-administration-issued-the-amendment-to-the-older-notificati/",
+        "secondary": true
+      },
+      "weeklyHours": {
+        "value": "48 hours a week (condition 6)",
+        "source": "https://uncomplycate.com/wp-content/uploads/2025/08/Chandigarh-Administration-allows-247-Operations-for-Shops-and-Commercial-Establishments-AUG212025.pdf"
+      },
+      "spreadOver": {
+        "value": "12 hours including the rest interval (condition 13, as amended 18 March 2026; previously 10)",
+        "source": "https://www.teamleaseregtech.com/updates/article/53982/chandigarh-administration-issued-the-amendment-to-the-older-notificati/",
+        "secondary": true
+      },
+      "restInterval": {
+        "value": "At least half an hour after 5 hours of continuous work (condition 5)",
+        "source": "https://uncomplycate.com/wp-content/uploads/2025/08/Chandigarh-Administration-allows-247-Operations-for-Shops-and-Commercial-Establishments-AUG212025.pdf"
+      },
+      "overtimeRate": {
+        "value": "Twice the normal hourly wage (condition 15(ii))",
+        "source": "https://uncomplycate.com/wp-content/uploads/2025/08/Chandigarh-Administration-allows-247-Operations-for-Shops-and-Commercial-Establishments-AUG212025.pdf"
+      },
+      "overtimeCap": {
+        "value": "144 hours per quarter (condition 15(i), as amended 18 March 2026; previously 50)",
+        "source": "https://www.teamleaseregtech.com/updates/article/53982/chandigarh-administration-issued-the-amendment-to-the-older-notificati/",
+        "secondary": true
+      },
+      "weeklyOff": {
+        "value": "One day of rest per week with no wage deduction, with the timetable posted on the notice board in advance (condition 4). Establishments may otherwise open 365 days a year, 24 hours (condition 2)",
+        "source": "https://uncomplycate.com/wp-content/uploads/2025/08/Chandigarh-Administration-allows-247-Operations-for-Shops-and-Commercial-Establishments-AUG212025.pdf"
+      },
+      "womenNightShift": {
+        "value": "Written consent required to work after 8pm (condition 9), plus the most prescriptive conditions of any state we checked: licensed security and transport contractor, GPS-enabled vehicles, boarding and movement registers, no tinted glass, the driver may not pick her up first or drop her last and must wait until she is inside, annual self-defence workshops, and a minimum of five women per night shift (condition 10)",
+        "source": "https://uncomplycate.com/wp-content/uploads/2025/08/Chandigarh-Administration-allows-247-Operations-for-Shops-and-Commercial-Establishments-AUG212025.pdf"
+      },
+      "itExemption": {
+        "value": "No IT/ITES-specific instrument, and none is needed: the 14 August 2025 exemption notification is sector-neutral and covers all registered shops and commercial establishments. It has no expiry and runs unless revoked",
+        "source": "https://uncomplycate.com/wp-content/uploads/2025/08/Chandigarh-Administration-allows-247-Operations-for-Shops-and-Commercial-Establishments-AUG212025.pdf"
+      },
+      "notes": [
+        "Chandigarh's operative rules come from a s.28 exemption notification (14 August 2025, gazette no. 118) rather than from the statute directly — so the figures above are exemption conditions, and the exemption can be revoked.",
+        "CCTV with at least 15 days of backup and an emergency alarm are mandatory conditions of the exemption (conditions 18 and 19)."
+      ]
+    }
+  ]
+}

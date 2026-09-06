@@ -1,0 +1,80 @@
+jurisdiction,slug,field,source,is_secondary
+Rajasthan,rajasthan,actName,https://prsindia.org/files/bills_acts/bills_states/rajasthan/2026/Bill5of2026RJ.pdf,false
+Rajasthan,rajasthan,dailyHours,https://prsindia.org/files/bills_acts/bills_states/rajasthan/2026/Bill5of2026RJ.pdf,false
+Rajasthan,rajasthan,weeklyHours,"https://www.indiacode.nic.in/bitstream/123456789/18868/1/the_rajasthan_shops_and_commercial_establishments_act,_1958.pdf",false
+Rajasthan,rajasthan,spreadOver,"https://www.indiacode.nic.in/bitstream/123456789/18868/1/the_rajasthan_shops_and_commercial_establishments_act,_1958.pdf",false
+Rajasthan,rajasthan,restInterval,https://prsindia.org/files/bills_acts/bills_states/rajasthan/2026/Bill5of2026RJ.pdf,false
+Rajasthan,rajasthan,overtimeRate,"https://www.indiacode.nic.in/bitstream/123456789/18868/1/the_rajasthan_shops_and_commercial_establishments_act,_1958.pdf",false
+Rajasthan,rajasthan,overtimeCap,https://prsindia.org/files/bills_acts/bills_states/rajasthan/2026/Bill5of2026RJ.pdf,false
+Rajasthan,rajasthan,weeklyOff,https://labour.rajasthan.gov.in/notification.aspx,false
+Rajasthan,rajasthan,womenNightShift,https://labour.rajasthan.gov.in/notification.aspx,false
+Rajasthan,rajasthan,itExemption,https://labour.rajasthan.gov.in/notification.aspx,false
+Goa,goa,actName,https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf,false
+Goa,goa,dailyHours,https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf,false
+Goa,goa,weeklyHours,https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf,false
+Goa,goa,spreadOver,https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf,false
+Goa,goa,restInterval,https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf,false
+Goa,goa,overtimeRate,https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf,false
+Goa,goa,overtimeCap,https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf,false
+Goa,goa,weeklyOff,https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf,false
+Goa,goa,womenNightShift,https://www.goa.gov.in/wp-content/uploads/2020/09/Goa-Daman-Diu-Shops-Establishments-Act-1973..pdf,false
+Goa,goa,itExemption,https://www.teamleaseregtech.com/updates/article/7308/government-of-goa-exempts-all-the-information-technology-units-from-va/,true
+Himachal Pradesh,himachal-pradesh,actName,https://prsindia.org/files/bills_acts/acts_states/himachal-pradesh/1970/1970HP10.pdf,false
+Himachal Pradesh,himachal-pradesh,dailyHours,https://prsindia.org/files/bills_acts/acts_states/himachal-pradesh/1970/1970HP10.pdf,false
+Himachal Pradesh,himachal-pradesh,weeklyHours,https://prsindia.org/files/bills_acts/acts_states/himachal-pradesh/1970/1970HP10.pdf,false
+Himachal Pradesh,himachal-pradesh,spreadOver,https://prsindia.org/files/bills_acts/acts_states/himachal-pradesh/1970/1970HP10.pdf,false
+Himachal Pradesh,himachal-pradesh,restInterval,https://prsindia.org/files/bills_acts/acts_states/himachal-pradesh/1970/1970HP10.pdf,false
+Himachal Pradesh,himachal-pradesh,overtimeRate,https://prsindia.org/files/bills_acts/acts_states/himachal-pradesh/1970/1970HP10.pdf,false
+Himachal Pradesh,himachal-pradesh,overtimeCap,https://uncomplycate.com/wp-content/uploads/2025/12/Himachal-Pradesh-Shops-and-Commercial-Establishments-Amendment-Bill-2025-DEC042025.pdf,false
+Himachal Pradesh,himachal-pradesh,weeklyOff,https://prsindia.org/files/bills_acts/acts_states/himachal-pradesh/1970/1970HP10.pdf,false
+Himachal Pradesh,himachal-pradesh,womenNightShift,https://www.teamleaseregtech.com/updates/article/44457/himachal-pradesh-govt-permits-women-w,true
+Himachal Pradesh,himachal-pradesh,itExemption,https://www.teamleaseregtech.com/updates/article/18878/government-of-himachal-pradesh-to-allow-employing-women-in-night-shift/,true
+Uttarakhand,uttarakhand,actName,https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf,false
+Uttarakhand,uttarakhand,dailyHours,https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf,false
+Uttarakhand,uttarakhand,weeklyHours,https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf,false
+Uttarakhand,uttarakhand,spreadOver,https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf,false
+Uttarakhand,uttarakhand,restInterval,https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf,false
+Uttarakhand,uttarakhand,overtimeRate,https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf,false
+Uttarakhand,uttarakhand,overtimeCap,https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf,false
+Uttarakhand,uttarakhand,weeklyOff,https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf,false
+Uttarakhand,uttarakhand,womenNightShift,https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf,false
+Uttarakhand,uttarakhand,itExemption,https://prsindia.org/files/bills_acts/acts_states/uttarakhand/2017/Act3of2017UK.pdf,false
+Madhya Pradesh,madhya-pradesh,actName,"https://www.indiacode.nic.in/bitstream/123456789/3595/1/MP%20Shops%20and%20Establishment%20Act,%201958.pdf",false
+Madhya Pradesh,madhya-pradesh,dailyHours,"https://www.indiacode.nic.in/bitstream/123456789/3595/1/MP%20Shops%20and%20Establishment%20Act,%201958.pdf",false
+Madhya Pradesh,madhya-pradesh,weeklyHours,"https://www.indiacode.nic.in/bitstream/123456789/3595/1/MP%20Shops%20and%20Establishment%20Act,%201958.pdf",false
+Madhya Pradesh,madhya-pradesh,spreadOver,"https://www.indiacode.nic.in/bitstream/123456789/3595/1/MP%20Shops%20and%20Establishment%20Act,%201958.pdf",false
+Madhya Pradesh,madhya-pradesh,overtimeRate,"https://www.indiacode.nic.in/bitstream/123456789/3595/1/MP%20Shops%20and%20Establishment%20Act,%201958.pdf",false
+Madhya Pradesh,madhya-pradesh,overtimeCap,https://www.teamleaseregtech.com/updates/article/47825/madhya-pradesh-shops-and-establishments-amendment-act-2025/,true
+Madhya Pradesh,madhya-pradesh,weeklyOff,"https://www.indiacode.nic.in/bitstream/123456789/3595/1/MP%20Shops%20and%20Establishment%20Act,%201958.pdf",false
+Madhya Pradesh,madhya-pradesh,womenNightShift,https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2025/Continued-move-towards-women-empowerment-Madhya-Pradesh-revises-conditions-for-allowing-women-to-work-night-shifts,true
+Madhya Pradesh,madhya-pradesh,itExemption,https://www.indianemployees.com/gazette-notifications/details/the-madhya-pradesh-shops-and-establishments-act-1958-related-to-working-hours-of-women-between-9,true
+Chhattisgarh,chhattisgarh,actName,https://prsindia.org/files/bills_acts/acts_states/chhattisgarh/2018/Act%2021%20of%202018%20CHH.pdf,false
+Chhattisgarh,chhattisgarh,dailyHours,https://pcsmgmt.com/chhattisgarh-shops-and-establishments-amendment-act-2025-key-changes-in-applicability-working-hours-overtime-and-womens-night-shifts/,true
+Chhattisgarh,chhattisgarh,weeklyHours,https://prsindia.org/files/bills_acts/acts_states/chhattisgarh/2018/Act%2021%20of%202018%20CHH.pdf,false
+Chhattisgarh,chhattisgarh,spreadOver,https://pcsmgmt.com/chhattisgarh-shops-and-establishments-amendment-act-2025-key-changes-in-applicability-working-hours-overtime-and-womens-night-shifts/,true
+Chhattisgarh,chhattisgarh,restInterval,https://pcsmgmt.com/chhattisgarh-shops-and-establishments-amendment-act-2025-key-changes-in-applicability-working-hours-overtime-and-womens-night-shifts/,true
+Chhattisgarh,chhattisgarh,overtimeRate,https://prsindia.org/files/bills_acts/acts_states/chhattisgarh/2018/Act%2021%20of%202018%20CHH.pdf,false
+Chhattisgarh,chhattisgarh,overtimeCap,https://pcsmgmt.com/chhattisgarh-shops-and-establishments-amendment-act-2025-key-changes-in-applicability-working-hours-overtime-and-womens-night-shifts/,true
+Chhattisgarh,chhattisgarh,weeklyOff,https://prsindia.org/files/bills_acts/acts_states/chhattisgarh/2018/Act%2021%20of%202018%20CHH.pdf,false
+Chhattisgarh,chhattisgarh,womenNightShift,https://prsindia.org/files/bills_acts/acts_states/chhattisgarh/2018/Act%2021%20of%202018%20CHH.pdf,false
+Chhattisgarh,chhattisgarh,itExemption,https://prsindia.org/files/bills_acts/acts_states/chhattisgarh/2018/Act%2021%20of%202018%20CHH.pdf,false
+Punjab,punjab,actName,https://uncomplycate.com/wp-content/uploads/2025/09/Punjab-Shops-and-Commercial-Establishments-Amendment-Act-2025-Sep102025.pdf,false
+Punjab,punjab,dailyHours,https://uncomplycate.com/wp-content/uploads/2025/09/Punjab-Shops-and-Commercial-Establishments-Amendment-Act-2025-Sep102025.pdf,false
+Punjab,punjab,weeklyHours,https://uncomplycate.com/wp-content/uploads/2025/09/Punjab-Shops-and-Commercial-Establishments-Amendment-Act-2025-Sep102025.pdf,false
+Punjab,punjab,spreadOver,https://uncomplycate.com/wp-content/uploads/2025/09/Punjab-Shops-and-Commercial-Establishments-Amendment-Act-2025-Sep102025.pdf,false
+Punjab,punjab,restInterval,https://blinkvisa.com/blog/wp-content/uploads/2022/06/The-Punjab-Shops-and-Commercial-Establishments-Act-1958.pdf,false
+Punjab,punjab,overtimeRate,https://blinkvisa.com/blog/wp-content/uploads/2022/06/The-Punjab-Shops-and-Commercial-Establishments-Act-1958.pdf,false
+Punjab,punjab,overtimeCap,https://uncomplycate.com/wp-content/uploads/2025/09/Punjab-Shops-and-Commercial-Establishments-Amendment-Act-2025-Sep102025.pdf,false
+Punjab,punjab,weeklyOff,https://blinkvisa.com/blog/wp-content/uploads/2022/06/The-Punjab-Shops-and-Commercial-Establishments-Act-1958.pdf,false
+Punjab,punjab,womenNightShift,https://complinity.com/legal-update/exemption-granted-from-the-provisions-of-section-30-condition-of-employment-of-women-of-the-punjab-shops-and-commercial-establishment-act-1958-5348/,true
+Punjab,punjab,itExemption,https://www.datocms-assets.com/40521/1638960719-punjab-shops-and-commercial-establihments-notifications.pdf,false
+Chandigarh,chandigarh,actName,https://uncomplycate.com/wp-content/uploads/2025/08/Chandigarh-Administration-allows-247-Operations-for-Shops-and-Commercial-Establishments-AUG212025.pdf,false
+Chandigarh,chandigarh,dailyHours,https://www.teamleaseregtech.com/updates/article/53982/chandigarh-administration-issued-the-amendment-to-the-older-notificati/,true
+Chandigarh,chandigarh,weeklyHours,https://uncomplycate.com/wp-content/uploads/2025/08/Chandigarh-Administration-allows-247-Operations-for-Shops-and-Commercial-Establishments-AUG212025.pdf,false
+Chandigarh,chandigarh,spreadOver,https://www.teamleaseregtech.com/updates/article/53982/chandigarh-administration-issued-the-amendment-to-the-older-notificati/,true
+Chandigarh,chandigarh,restInterval,https://uncomplycate.com/wp-content/uploads/2025/08/Chandigarh-Administration-allows-247-Operations-for-Shops-and-Commercial-Establishments-AUG212025.pdf,false
+Chandigarh,chandigarh,overtimeRate,https://uncomplycate.com/wp-content/uploads/2025/08/Chandigarh-Administration-allows-247-Operations-for-Shops-and-Commercial-Establishments-AUG212025.pdf,false
+Chandigarh,chandigarh,overtimeCap,https://www.teamleaseregtech.com/updates/article/53982/chandigarh-administration-issued-the-amendment-to-the-older-notificati/,true
+Chandigarh,chandigarh,weeklyOff,https://uncomplycate.com/wp-content/uploads/2025/08/Chandigarh-Administration-allows-247-Operations-for-Shops-and-Commercial-Establishments-AUG212025.pdf,false
+Chandigarh,chandigarh,womenNightShift,https://uncomplycate.com/wp-content/uploads/2025/08/Chandigarh-Administration-allows-247-Operations-for-Shops-and-Commercial-Establishments-AUG212025.pdf,false
+Chandigarh,chandigarh,itExemption,https://uncomplycate.com/wp-content/uploads/2025/08/Chandigarh-Administration-allows-247-Operations-for-Shops-and-Commercial-Establishments-AUG212025.pdf,false

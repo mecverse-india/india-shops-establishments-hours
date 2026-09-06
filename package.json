@@ -1,0 +1,21 @@
+{
+  "name": "india-shops-establishments-hours",
+  "version": "0.1.0",
+  "description": "Open dataset of per-state working-hours rules under India's Shops and Establishments Acts, with a verified source for every value.",
+  "license": "CC-BY-4.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mecverse-india/india-shops-establishments-hours.git"
+  },
+  "homepage": "https://github.com/mecverse-india/india-shops-establishments-hours",
+  "keywords": [
+    "india", "labour-law", "shops-and-establishments", "working-hours",
+    "overtime", "compliance", "hr", "payroll", "open-data"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test scripts/*.test.mjs",
+    "check": "npm run build && npm test"
+  }
+}

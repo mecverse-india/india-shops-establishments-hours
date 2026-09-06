@@ -1,0 +1,21 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - run: npm run build
+      # A PR that edits state-hours.ts without regenerating data/ would ship a
+      # CSV that disagrees with the JSON. Fail instead.
+      - name: data/ is up to date with state-hours.ts
+        run: git diff --exit-code -- data/

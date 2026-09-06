@@ -78,3 +78,20 @@ test('a recorded conflict explains itself', () => {
     }
   }
 });
+
+test('CSV cells cannot begin a spreadsheet formula', async () => {
+  const { readFileSync } = await import('node:fs');
+  for (const file of ['state-hours.csv', 'sources.csv']) {
+    const text = readFileSync(join(root, 'data', file), 'utf8');
+    for (const [i, line] of text.split('\n').entries()) {
+      if (!line) continue;
+      for (const cell of line.split(',')) {
+        const bare = cell.startsWith('"') ? cell.slice(1) : cell;
+        assert.ok(
+          !/^[=+@]/.test(bare),
+          `${file}:${i + 1} has a cell starting with a formula character: ${cell.slice(0, 40)}`
+        );
+      }
+    }
+  }
+});

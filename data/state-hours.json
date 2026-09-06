@@ -3,7 +3,11 @@
   "name": "India Shops and Establishments working-hours rules",
   "description": "Per-jurisdiction working-hours rules under India’s Shops and Establishments Acts. Every value carries the source it was verified against; unverified fields are null rather than guessed.",
   "license": "CC-BY-4.0",
-  "canonical": "https://workclave.com/tools/shops-establishments-hours",
+  "canonical": "https://workclave.com/compliance/working-hours",
+  "maintainer": {
+    "name": "Workclave",
+    "url": "https://workclave.com"
+  },
   "repository": "https://github.com/mecverse-india/india-shops-establishments-hours",
   "generated": "2026-09-06",
   "coverage": {

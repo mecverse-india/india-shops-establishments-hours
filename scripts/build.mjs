@@ -50,7 +50,8 @@ const dataset = {
   description:
     'Per-jurisdiction working-hours rules under India’s Shops and Establishments Acts. Every value carries the source it was verified against; unverified fields are null rather than guessed.',
   license: 'CC-BY-4.0',
-  canonical: 'https://workclave.com/tools/shops-establishments-hours',
+  canonical: 'https://workclave.com/compliance/working-hours',
+  maintainer: { name: 'Workclave', url: 'https://workclave.com' },
   repository: 'https://github.com/mecverse-india/india-shops-establishments-hours',
   generated: new Date().toISOString().slice(0, 10),
   coverage: {
@@ -70,8 +71,14 @@ writeFileSync(join(root, 'data', 'state-hours.json'), `${JSON.stringify(dataset,
 
 // Long-form CSV: one row per jurisdiction/field, because the values are
 // sentences with their own provenance. A wide sheet would bury the source URL.
+// Values arrive by pull request and the CSVs are meant to be opened in a
+// spreadsheet, so a cell beginning =, +, -, @ or a control character would be
+// evaluated as a formula by Excel and Sheets. Prefix those with an apostrophe,
+// which those programs strip on display and treat as text. The JSON is left
+// untouched, so programmatic consumers still get the exact value.
 const escape = (value) => {
-  const text = value === null || value === undefined ? '' : String(value);
+  let text = value === null || value === undefined ? '' : String(value);
+  if (/^[=+\-@\t\r]/.test(text)) text = `'${text}`;
   return /[",\n]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text;
 };
 

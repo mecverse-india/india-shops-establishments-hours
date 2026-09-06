@@ -16,6 +16,10 @@ dataset that quietly fills those gaps is worse than one that admits them.
 **Coverage: 8 of 36 states and union territories.** See
 [Contributing](#contributing) — the missing 28 are the point, not an oversight.
 
+Maintained by [Workclave](https://workclave.com), attendance and timesheet
+software for teams in India. These are the rules it applies in production; see
+[Who maintains this, and why](#who-maintains-this-and-why).
+
 ## Data
 
 | File | Shape |
@@ -75,6 +79,30 @@ df = pd.read_csv("data/state-hours.csv")
 df[df.field == "overtimeRate"][["jurisdiction", "value", "source"]]
 ```
 
+## What the data shows: one shift, four answers
+
+The rules do not vary by a little. Take a single employee working a **9½-hour
+day** and move them between four of the states in this dataset — same shift,
+same wage, four different payroll outcomes:
+
+| State | Daily cap | Overtime on a 9½h day | Rate |
+|---|---|---|---|
+| [Goa](https://workclave.com/compliance/working-hours/goa) | 8h | **1½ hours** | 2× |
+| [Himachal Pradesh](https://workclave.com/compliance/working-hours/himachal-pradesh) | 9h | **½ hour** | 2× |
+| [Rajasthan](https://workclave.com/compliance/working-hours/rajasthan) | 10h | **½ hour** | **1.5×** |
+| [Uttarakhand](https://workclave.com/compliance/working-hours/uttarakhand) | 10h | **none** | 2× |
+
+Rajasthan is the trap. The 2026 amendment raised the daily cap from 9 to 10
+hours but left s.8 untouched, so the overtime premium still triggers past **9**
+hours while the day may legally run to 10 — and it pays 1.5×, where nearly every
+other state pays 2×. Uttarakhand raised its cap the same year and *did* move the
+overtime trigger with it, so the identical shift attracts nothing.
+
+Two states, same year, same reform, opposite payroll consequences. This is why
+copying a neighbouring state's figures produces wrong numbers, and why a
+single national "overtime after 9 hours" rule in a payroll system is incorrect
+in most of India.
+
 ## What "verified" means here
 
 - **Primary source** — the Act, its rules, an amendment Act, or a gazette
@@ -123,10 +151,28 @@ document that contradicts what is here.
 Data: [CC BY 4.0](LICENSE) — use it commercially, attribute the source.
 Scripts: MIT.
 
----
+## Who maintains this, and why
 
-Maintained by [Mecverse](https://mecverse.com). The human-readable version of
-this dataset, with per-state pages, lives at
-[workclave.com](https://workclave.com) — the working-hours rules here are the
-same ones [Workclave](https://workclave.com) applies when it computes attendance
-and overtime.
+Maintained by the team behind [**Workclave**](https://workclave.com) — attendance
+and timesheet software for teams in India — built by
+[Mecverse](https://mecverse.com).
+
+The incentive is worth stating plainly rather than leaving you to infer it.
+Workclave has to compute attendance, overtime and loss-of-pay correctly in every
+state its customers operate in, which means we had to do this research anyway.
+Publishing it costs us nothing we had not already spent, and being corrected in
+public makes our own product more accurate. That is the whole trade: you get a
+sourced dataset, we get scrutiny we could not buy.
+
+The rules in this repository are the same ones Workclave applies when it decides
+whether a 9½-hour day in Goa attracted overtime and a 9½-hour day in Uttarakhand
+did not. If you would rather not implement per-state working-hours logic
+yourself — the divergence above is a fair preview of what that involves —
+[Workclave handles it](https://workclave.com/compliance/working-hours).
+
+**Human-readable version:** every jurisdiction here also has a page at
+[workclave.com/compliance/working-hours](https://workclave.com/compliance/working-hours),
+with the same values and the same sources.
+
+**Related:** [FlowTux](https://flowtux.com) — AI-powered internal support, also
+by Mecverse.
